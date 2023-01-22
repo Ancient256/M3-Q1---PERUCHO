@@ -199,9 +199,6 @@ function createToolPlace(){
 	tool1.position.set(-1, -1, 47);
 	toolPlace.add(tool1);
 
-	const tool2 = createTool();
-	tool2.position.set(18, -1, 47);
-	toolPlace.add(tool2);
 	
 	return toolPlace; 
 }
